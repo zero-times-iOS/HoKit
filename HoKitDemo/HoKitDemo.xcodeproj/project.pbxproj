@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C6E8EC9E237297F80049A18D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E8EC9D237297F80049A18D /* AppDelegate.swift */; };
+		C6E8ECA2237297F80049A18D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E8ECA1237297F80049A18D /* ViewController.swift */; };
+		C6E8ECA5237297F80049A18D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6E8ECA3237297F80049A18D /* Main.storyboard */; };
+		C6E8ECA7237297FA0049A18D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6E8ECA6237297FA0049A18D /* Assets.xcassets */; };
+		C6E8ECAA237297FA0049A18D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6E8ECA8237297FA0049A18D /* LaunchScreen.storyboard */; };
+		C6E8ECEB237298410049A18D /* HoValidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E8ECDF237298410049A18D /* HoValidate.swift */; };
+		C6E8ECEC237298410049A18D /* HoUIStoryboardExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E8ECE0237298410049A18D /* HoUIStoryboardExtensions.swift */; };
+		C6E8ECED237298410049A18D /* HoNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E8ECE1237298410049A18D /* HoNotificationCenter.swift */; };
+		C6E8ECEE237298410049A18D /* HoCGRectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E8ECE3237298410049A18D /* HoCGRectExtensions.swift */; };
+		C6E8ECEF237298410049A18D /* HoDeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E8ECE4237298410049A18D /* HoDeviceModel.swift */; };
+		C6E8ECF0237298410049A18D /* HoUILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E8ECE5237298410049A18D /* HoUILabelExtensions.swift */; };
+		C6E8ECF1237298410049A18D /* HoLimitLengthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E8ECE6237298410049A18D /* HoLimitLengthTextField.swift */; };
+		C6E8ECF2237298410049A18D /* HoUIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E8ECE7237298410049A18D /* HoUIColorExtensions.swift */; };
+		C6E8ECF3237298410049A18D /* HoUIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E8ECE8237298410049A18D /* HoUIViewExtensions.swift */; };
+		C6E8ECF4237298410049A18D /* HoHtmlHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E8ECE9237298410049A18D /* HoHtmlHelper.swift */; };
+		C6E8ECF5237298410049A18D /* HoUIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E8ECEA237298410049A18D /* HoUIButtonExtensions.swift */; };
+		C6E8ECF7237299960049A18D /* SwiftToolsInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = C6E8ECF6237299960049A18D /* SwiftToolsInfo.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C6E8EC9A237297F80049A18D /* HoKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6E8EC9D237297F80049A18D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C6E8ECA1237297F80049A18D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C6E8ECA4237297F80049A18D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6E8ECA6237297FA0049A18D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6E8ECA9237297FA0049A18D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6E8ECDF237298410049A18D /* HoValidate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoValidate.swift; sourceTree = "<group>"; };
+		C6E8ECE0237298410049A18D /* HoUIStoryboardExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoUIStoryboardExtensions.swift; sourceTree = "<group>"; };
+		C6E8ECE1237298410049A18D /* HoNotificationCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoNotificationCenter.swift; sourceTree = "<group>"; };
+		C6E8ECE3237298410049A18D /* HoCGRectExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoCGRectExtensions.swift; sourceTree = "<group>"; };
+		C6E8ECE4237298410049A18D /* HoDeviceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoDeviceModel.swift; sourceTree = "<group>"; };
+		C6E8ECE5237298410049A18D /* HoUILabelExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoUILabelExtensions.swift; sourceTree = "<group>"; };
+		C6E8ECE6237298410049A18D /* HoLimitLengthTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoLimitLengthTextField.swift; sourceTree = "<group>"; };
+		C6E8ECE7237298410049A18D /* HoUIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoUIColorExtensions.swift; sourceTree = "<group>"; };
+		C6E8ECE8237298410049A18D /* HoUIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoUIViewExtensions.swift; sourceTree = "<group>"; };
+		C6E8ECE9237298410049A18D /* HoHtmlHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoHtmlHelper.swift; sourceTree = "<group>"; };
+		C6E8ECEA237298410049A18D /* HoUIButtonExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoUIButtonExtensions.swift; sourceTree = "<group>"; };
+		C6E8ECF6237299960049A18D /* SwiftToolsInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SwiftToolsInfo.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6E8EC97237297F80049A18D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C6E8EC91237297F80049A18D = {
+			isa = PBXGroup;
+			children = (
+				C6E8ECDE237298410049A18D /* Hokit */,
+				C6E8EC9C237297F80049A18D /* HoKitDemo */,
+				C6E8EC9B237297F80049A18D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6E8EC9B237297F80049A18D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6E8EC9A237297F80049A18D /* HoKitDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6E8EC9C237297F80049A18D /* HoKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C6E8ECF6237299960049A18D /* SwiftToolsInfo.plist */,
+				C6E8EC9D237297F80049A18D /* AppDelegate.swift */,
+				C6E8ECA1237297F80049A18D /* ViewController.swift */,
+				C6E8ECA3237297F80049A18D /* Main.storyboard */,
+				C6E8ECA6237297FA0049A18D /* Assets.xcassets */,
+				C6E8ECA8237297FA0049A18D /* LaunchScreen.storyboard */,
+			);
+			path = HoKitDemo;
+			sourceTree = "<group>";
+		};
+		C6E8ECDE237298410049A18D /* Hokit */ = {
+			isa = PBXGroup;
+			children = (
+				C6E8ECDF237298410049A18D /* HoValidate.swift */,
+				C6E8ECE0237298410049A18D /* HoUIStoryboardExtensions.swift */,
+				C6E8ECE1237298410049A18D /* HoNotificationCenter.swift */,
+				C6E8ECE3237298410049A18D /* HoCGRectExtensions.swift */,
+				C6E8ECE4237298410049A18D /* HoDeviceModel.swift */,
+				C6E8ECE5237298410049A18D /* HoUILabelExtensions.swift */,
+				C6E8ECE6237298410049A18D /* HoLimitLengthTextField.swift */,
+				C6E8ECE7237298410049A18D /* HoUIColorExtensions.swift */,
+				C6E8ECE8237298410049A18D /* HoUIViewExtensions.swift */,
+				C6E8ECE9237298410049A18D /* HoHtmlHelper.swift */,
+				C6E8ECEA237298410049A18D /* HoUIButtonExtensions.swift */,
+			);
+			name = Hokit;
+			path = ../Hokit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6E8EC99237297F80049A18D /* HoKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6E8ECAE237297FA0049A18D /* Build configuration list for PBXNativeTarget "HoKitDemo" */;
+			buildPhases = (
+				C6E8EC96237297F80049A18D /* Sources */,
+				C6E8EC97237297F80049A18D /* Frameworks */,
+				C6E8EC98237297F80049A18D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoKitDemo;
+			productName = HoKitDemo;
+			productReference = C6E8EC9A237297F80049A18D /* HoKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C6E8EC92237297F80049A18D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = HOA;
+				TargetAttributes = {
+					C6E8EC99237297F80049A18D = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = C6E8EC95237297F80049A18D /* Build configuration list for PBXProject "HoKitDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C6E8EC91237297F80049A18D;
+			productRefGroup = C6E8EC9B237297F80049A18D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6E8EC99237297F80049A18D /* HoKitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6E8EC98237297F80049A18D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6E8ECF7237299960049A18D /* SwiftToolsInfo.plist in Resources */,
+				C6E8ECAA237297FA0049A18D /* LaunchScreen.storyboard in Resources */,
+				C6E8ECA7237297FA0049A18D /* Assets.xcassets in Resources */,
+				C6E8ECA5237297F80049A18D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6E8EC96237297F80049A18D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6E8ECF5237298410049A18D /* HoUIButtonExtensions.swift in Sources */,
+				C6E8ECF1237298410049A18D /* HoLimitLengthTextField.swift in Sources */,
+				C6E8ECEB237298410049A18D /* HoValidate.swift in Sources */,
+				C6E8ECA2237297F80049A18D /* ViewController.swift in Sources */,
+				C6E8ECED237298410049A18D /* HoNotificationCenter.swift in Sources */,
+				C6E8ECF2237298410049A18D /* HoUIColorExtensions.swift in Sources */,
+				C6E8ECF4237298410049A18D /* HoHtmlHelper.swift in Sources */,
+				C6E8ECEC237298410049A18D /* HoUIStoryboardExtensions.swift in Sources */,
+				C6E8EC9E237297F80049A18D /* AppDelegate.swift in Sources */,
+				C6E8ECEF237298410049A18D /* HoDeviceModel.swift in Sources */,
+				C6E8ECF0237298410049A18D /* HoUILabelExtensions.swift in Sources */,
+				C6E8ECEE237298410049A18D /* HoCGRectExtensions.swift in Sources */,
+				C6E8ECF3237298410049A18D /* HoUIViewExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C6E8ECA3237297F80049A18D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6E8ECA4237297F80049A18D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6E8ECA8237297FA0049A18D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6E8ECA9237297FA0049A18D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C6E8ECAC237297FA0049A18D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C6E8ECAD237297FA0049A18D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C6E8ECAF237297FA0049A18D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/HoKitDemo/SwiftToolsInfo.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoa.HoKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6E8ECB0237297FA0049A18D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/HoKitDemo/SwiftToolsInfo.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoa.HoKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6E8EC95237297F80049A18D /* Build configuration list for PBXProject "HoKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6E8ECAC237297FA0049A18D /* Debug */,
+				C6E8ECAD237297FA0049A18D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6E8ECAE237297FA0049A18D /* Build configuration list for PBXNativeTarget "HoKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6E8ECAF237297FA0049A18D /* Debug */,
+				C6E8ECB0237297FA0049A18D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C6E8EC92237297F80049A18D /* Project object */;
+}
